@@ -321,7 +321,7 @@ body {
 }
 
 #monikamo .container .main-content .players-contents {
-  padding: 20px 0;
+  padding: 20px 25px 20px 0px;
   text-align: center;
 }
 
@@ -556,7 +556,7 @@ body {
     padding-bottom: 20px;
   }
   #monikamo .container .main-content .players-contents {
-    padding: 15px 0;
+    padding: 15px 30px 15px 0;
   }
   #monikamo .container .main-content .players-contents span {
     font-size: 16px;
@@ -705,7 +705,7 @@ body {
     padding-bottom: 20px;
   }
   #monikamo .container .main-content .players-contents {
-    padding: 15px 0;
+    padding: 15px 25px 15px 0;
   }
   #monikamo .container .main-content .players-contents span {
     font-size: 17px;
