@@ -1,0 +1,475 @@
+/*common part css*/
+* {
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
+
+img {
+  border: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+// common scss //
+
+.shape-two-width {
+  width: 282px;
+}
+.shape-one-width {
+  width: 194px;
+}
+.shape-three-width {
+  width: 283px;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+#monikamo {
+  width: 100%;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #5337c8;
+
+  .container {
+    width: 650px;
+    margin: auto;
+    padding: 10px 0;
+
+    .main-content {
+      .Q-icon {
+        text-align: center;
+        padding-bottom: 10px;
+      }
+
+      .shape-contents {
+        height: 240px;
+        width: 100%;
+        position: relative;
+        .shape-two-content {
+          left: 7px;
+          bottom: 0;
+          position: absolute;
+        }
+        .shape-one-content {
+          left: 50%;
+          bottom: 0;
+          position: absolute;
+          transform: translateX(-50%);
+        }
+        .shape-three-content {
+          bottom: 0;
+          right: 25px;
+          position: absolute;
+        }
+
+        .shape-two-content,
+        .shape-one-content,
+        .shape-three-content {
+          .monikamo-text-two {
+            padding-right: 75px;
+            padding-bottom: 15px;
+          }
+          .monikamo-text-one {
+            padding-bottom: 15px;
+          }
+          .monikamo-text-three {
+            padding-left: 85px;
+            padding-bottom: 15px;
+          }
+          .monikamo-text-two,
+          .monikamo-text-one,
+          .monikamo-text-three {
+            text-align: center;
+            h3 {
+              color: #ffffff;
+              font-size: 20px;
+              font-weight: 700;
+              align-items: center;
+              margin-bottom: 10px;
+            }
+            .couning-items {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              .task-number {
+                margin-right: 30px;
+              }
+              .task-number,
+              .task-time {
+                display: flex;
+                span {
+                  color: #fff;
+                  font-size: 16px;
+                  font-weight: 400;
+                  margin-left: 8px;
+                }
+              }
+            }
+          }
+          .shape-two {
+            width: 282px;
+            height: 137px;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            background: rgba(0, 0, 0, 0.4);
+            clip-path: polygon(0 0, 85% 15%, 100% 100%, 64% 100%);
+            span {
+              color: #fff;
+              font-size: 52px;
+              font-weight: 700;
+              text-align: center;
+              padding-left: 50px;
+              padding-bottom: 20px;
+            }
+          }
+          .shape-one {
+            width: 194px;
+            height: 166px;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            background: rgba(0, 0, 0, 0.6);
+            clip-path: polygon(0 10%, 100% 0, 65% 100%, 20% 100%);
+            span {
+              color: #fff;
+              font-size: 52px;
+              font-weight: 700;
+              text-align: center;
+              padding-bottom: 50px;
+              padding-right: 10px;
+            }
+          }
+          .shape-three {
+            width: 283px;
+            height: 108px;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            background: rgba(0, 0, 0, 0.25);
+            clip-path: polygon(8% 10%, 100% 0, 25% 100%, 0% 100%);
+            span {
+              color: #fff;
+              font-size: 52px;
+              font-weight: 700;
+              text-align: center;
+              padding-right: 70px;
+              padding-bottom: 20px;
+            }
+          }
+        }
+      }
+      .players-contents {
+        padding: 20px 0;
+        text-align: center;
+        span {
+          color: #ffffff;
+          font-size: 24px;
+          font-weight: 700;
+          margin-left: 15px;
+        }
+      }
+      .place {
+        margin: auto;
+        max-width: 446px;
+        padding: 15px 0;
+        text-align: center;
+        margin-bottom: 15px;
+        border-radius: 20px;
+        background: rgba(0, 0, 0, 0.6);
+        h4 {
+          color: #ffffff;
+          font-size: 20px;
+          font-weight: 700;
+        }
+        h3 {
+          color: #ffffff;
+          font-size: 80px;
+          font-weight: 700;
+        }
+        .couning-items {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .task-number {
+            margin-right: 30px;
+          }
+          .task-number,
+          .task-time {
+            display: flex;
+            span {
+              color: #fff;
+              font-size: 16px;
+              font-weight: 400;
+              margin-left: 8px;
+            }
+          }
+        }
+      }
+      .monikaMo-img {
+        margin: auto;
+        max-width: 445px;
+        img {
+          max-width: 100%;
+          border-radius: 20px;
+        }
+      }
+    }
+  }
+}
+/*=====================
+ meadia part scss 
+======================*/
+@media (max-width: 991px) {
+  .shape-two-width {
+    width: 137px;
+  }
+  .shape-one-width {
+    width: 96px;
+  }
+  .shape-three-width {
+    width: 137px;
+  }
+  #monikamo {
+    .container {
+      width: 320px;
+      .main-content {
+        .shape-contents {
+          height: 230px;
+          .shape-two-content {
+            left: 3px;
+            bottom: 0;
+          }
+          .shape-one-content {
+            bottom: 0;
+          }
+          .shape-three-content {
+            bottom: 0;
+            right: 10px;
+          }
+
+          .shape-two-content,
+          .shape-one-content,
+          .shape-three-content {
+            .monikamo-text-two {
+              padding-right: 20px;
+              padding-bottom: 10px;
+            }
+            .monikamo-text-one {
+              padding-bottom: 10px;
+            }
+            .monikamo-text-three {
+              padding-left: 40px;
+              padding-bottom: 10px;
+            }
+            .monikamo-text-two,
+            .monikamo-text-one,
+            .monikamo-text-three {
+              h3 {
+                font-size: 14px;
+              }
+              .couning-items {
+                flex-direction: column;
+                .task-number {
+                  margin-right: 0;
+                  margin-bottom: 5px;
+                }
+                .task-time {
+                  margin-right: 4px;
+                }
+                .task-number,
+                .task-time {
+                  span {
+                    font-size: 16px;
+                    margin-left: 8px;
+                  }
+                }
+              }
+            }
+            .shape-two {
+              width: 137px;
+              height: 117px;
+              span {
+                font-size: 50px;
+                padding-left: 50px;
+                padding-bottom: 20px;
+              }
+            }
+            .shape-one {
+              width: 96px;
+              height: 140px;
+              span {
+                font-size: 50px;
+                padding-bottom: 50px;
+                padding-right: 10px;
+              }
+            }
+            .shape-three {
+              width: 137px;
+              height: 93px;
+              span {
+                font-size: 50px;
+                padding-right: 70px;
+                padding-bottom: 20px;
+              }
+            }
+          }
+        }
+        .players-contents {
+          padding: 15px 0;
+          span {
+            font-size: 16px;
+          }
+        }
+        .place {
+          h4 {
+            font-size: 18px;
+          }
+          h3 {
+            padding: 5px 0;
+            font-size: 54px;
+          }
+          .couning-items {
+            .task-number {
+              margin-right: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 992px) and (max-width: 1500px) {
+  .shape-two-width {
+    width: 200px;
+  }
+  .shape-one-width {
+    width: 165px;
+  }
+  .shape-three-width {
+    width: 200px;
+  }
+  #monikamo {
+    .container {
+      width: 520px;
+      .main-content {
+        .shape-contents {
+          height: 200px;
+          .shape-two-content {
+            left: 18px;
+            bottom: 0;
+          }
+          .shape-one-content {
+            bottom: 0;
+          }
+          .shape-three-content {
+            bottom: 0;
+            right: 40px;
+          }
+
+          .shape-two-content,
+          .shape-one-content,
+          .shape-three-content {
+            .monikamo-text-two {
+              padding-right: 45px;
+              padding-bottom: 5px;
+            }
+            .monikamo-text-one {
+              padding-bottom: 5px;
+            }
+            .monikamo-text-three {
+              padding-left: 63px;
+              padding-bottom: 5px;
+            }
+            .monikamo-text-two,
+            .monikamo-text-one,
+            .monikamo-text-three {
+              h3 {
+                font-size: 18px;
+              }
+              .couning-items {
+                .task-number {
+                  margin-right: 8px;
+                }
+                .task-number,
+                .task-time {
+                  span {
+                    font-size: 16px;
+                    margin-left: 8px;
+                  }
+                }
+              }
+            }
+            .shape-two {
+              width: 200px;
+              height: 107px;
+              span {
+                font-size: 50px;
+                padding-left: 50px;
+                padding-bottom: 20px;
+              }
+            }
+            .shape-one {
+              width: 165px;
+              height: 136px;
+              span {
+                font-size: 50px;
+                padding-bottom: 50px;
+                padding-right: 10px;
+              }
+            }
+            .shape-three {
+              width: 200px;
+              height: 80px;
+              span {
+                font-size: 50px;
+                padding-right: 70px;
+                padding-bottom: 20px;
+              }
+            }
+          }
+        }
+        .players-contents {
+          padding: 15px 0;
+          span {
+            font-size: 17px;
+          }
+        }
+        .place {
+          h4 {
+            font-size: 18px;
+          }
+          h3 {
+            padding: 5px 0;
+            font-size: 54px;
+          }
+          .couning-items {
+            .task-number {
+              margin-right: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/* commom media */

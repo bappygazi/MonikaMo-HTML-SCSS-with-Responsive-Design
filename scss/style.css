@@ -1,0 +1,710 @@
+/*common part css*/
+* {
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
+
+img {
+  border: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.shape-two-width {
+  width: 282px;
+}
+
+.shape-one-width {
+  width: 194px;
+}
+
+.shape-three-width {
+  width: 283px;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+#monikamo {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #5337c8;
+}
+
+#monikamo .container {
+  width: 650px;
+  margin: auto;
+  padding: 10px 0;
+}
+
+#monikamo .container .main-content .Q-icon {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#monikamo .container .main-content .shape-contents {
+  height: 240px;
+  width: 100%;
+  position: relative;
+}
+
+#monikamo .container .main-content .shape-contents .shape-two-content {
+  left: 7px;
+  bottom: 0;
+  position: absolute;
+}
+
+#monikamo .container .main-content .shape-contents .shape-one-content {
+  left: 50%;
+  bottom: 0;
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+#monikamo .container .main-content .shape-contents .shape-three-content {
+  bottom: 0;
+  right: 25px;
+  position: absolute;
+}
+
+#monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-two,
+#monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-two,
+#monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-two {
+  padding-right: 75px;
+  padding-bottom: 15px;
+}
+
+#monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-one,
+#monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-one,
+#monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-one {
+  padding-bottom: 15px;
+}
+
+#monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-three,
+#monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-three,
+#monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-three {
+  padding-left: 85px;
+  padding-bottom: 15px;
+}
+
+#monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-two,
+#monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-one,
+#monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-three,
+#monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-two,
+#monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-one,
+#monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-three,
+#monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-two,
+#monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-one,
+#monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-three {
+  text-align: center;
+}
+
+#monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-two h3,
+#monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-one h3,
+#monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-three h3,
+#monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-two h3,
+#monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-one h3,
+#monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-three h3,
+#monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-two h3,
+#monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-one h3,
+#monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-three h3 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+#monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-two .couning-items,
+#monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-one .couning-items,
+#monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-three .couning-items,
+#monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-two .couning-items,
+#monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-one .couning-items,
+#monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-three .couning-items,
+#monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-two .couning-items,
+#monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-one .couning-items,
+#monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-three .couning-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-two .couning-items .task-number,
+#monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-one .couning-items .task-number,
+#monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-three .couning-items .task-number,
+#monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-two .couning-items .task-number,
+#monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-one .couning-items .task-number,
+#monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-three .couning-items .task-number,
+#monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-two .couning-items .task-number,
+#monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-one .couning-items .task-number,
+#monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-three .couning-items .task-number {
+  margin-right: 30px;
+}
+
+#monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-two .couning-items .task-number,
+#monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-two .couning-items .task-time,
+#monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-one .couning-items .task-number,
+#monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-one .couning-items .task-time,
+#monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-three .couning-items .task-number,
+#monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-three .couning-items .task-time,
+#monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-two .couning-items .task-number,
+#monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-two .couning-items .task-time,
+#monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-one .couning-items .task-number,
+#monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-one .couning-items .task-time,
+#monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-three .couning-items .task-number,
+#monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-three .couning-items .task-time,
+#monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-two .couning-items .task-number,
+#monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-two .couning-items .task-time,
+#monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-one .couning-items .task-number,
+#monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-one .couning-items .task-time,
+#monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-three .couning-items .task-number,
+#monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-three .couning-items .task-time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-two .couning-items .task-number span,
+#monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-two .couning-items .task-time span,
+#monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-one .couning-items .task-number span,
+#monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-one .couning-items .task-time span,
+#monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-three .couning-items .task-number span,
+#monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-three .couning-items .task-time span,
+#monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-two .couning-items .task-number span,
+#monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-two .couning-items .task-time span,
+#monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-one .couning-items .task-number span,
+#monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-one .couning-items .task-time span,
+#monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-three .couning-items .task-number span,
+#monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-three .couning-items .task-time span,
+#monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-two .couning-items .task-number span,
+#monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-two .couning-items .task-time span,
+#monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-one .couning-items .task-number span,
+#monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-one .couning-items .task-time span,
+#monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-three .couning-items .task-number span,
+#monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-three .couning-items .task-time span {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 8px;
+}
+
+#monikamo .container .main-content .shape-contents .shape-two-content .shape-two,
+#monikamo .container .main-content .shape-contents .shape-one-content .shape-two,
+#monikamo .container .main-content .shape-contents .shape-three-content .shape-two {
+  width: 282px;
+  height: 137px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: rgba(0, 0, 0, 0.4);
+  -webkit-clip-path: polygon(0 0, 85% 15%, 100% 100%, 64% 100%);
+          clip-path: polygon(0 0, 85% 15%, 100% 100%, 64% 100%);
+}
+
+#monikamo .container .main-content .shape-contents .shape-two-content .shape-two span,
+#monikamo .container .main-content .shape-contents .shape-one-content .shape-two span,
+#monikamo .container .main-content .shape-contents .shape-three-content .shape-two span {
+  color: #fff;
+  font-size: 52px;
+  font-weight: 700;
+  text-align: center;
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+
+#monikamo .container .main-content .shape-contents .shape-two-content .shape-one,
+#monikamo .container .main-content .shape-contents .shape-one-content .shape-one,
+#monikamo .container .main-content .shape-contents .shape-three-content .shape-one {
+  width: 194px;
+  height: 166px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-clip-path: polygon(0 10%, 100% 0, 65% 100%, 20% 100%);
+          clip-path: polygon(0 10%, 100% 0, 65% 100%, 20% 100%);
+}
+
+#monikamo .container .main-content .shape-contents .shape-two-content .shape-one span,
+#monikamo .container .main-content .shape-contents .shape-one-content .shape-one span,
+#monikamo .container .main-content .shape-contents .shape-three-content .shape-one span {
+  color: #fff;
+  font-size: 52px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-right: 10px;
+}
+
+#monikamo .container .main-content .shape-contents .shape-two-content .shape-three,
+#monikamo .container .main-content .shape-contents .shape-one-content .shape-three,
+#monikamo .container .main-content .shape-contents .shape-three-content .shape-three {
+  width: 283px;
+  height: 108px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: rgba(0, 0, 0, 0.25);
+  -webkit-clip-path: polygon(8% 10%, 100% 0, 25% 100%, 0% 100%);
+          clip-path: polygon(8% 10%, 100% 0, 25% 100%, 0% 100%);
+}
+
+#monikamo .container .main-content .shape-contents .shape-two-content .shape-three span,
+#monikamo .container .main-content .shape-contents .shape-one-content .shape-three span,
+#monikamo .container .main-content .shape-contents .shape-three-content .shape-three span {
+  color: #fff;
+  font-size: 52px;
+  font-weight: 700;
+  text-align: center;
+  padding-right: 70px;
+  padding-bottom: 20px;
+}
+
+#monikamo .container .main-content .players-contents {
+  padding: 20px 0;
+  text-align: center;
+}
+
+#monikamo .container .main-content .players-contents span {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 15px;
+}
+
+#monikamo .container .main-content .place {
+  margin: auto;
+  max-width: 446px;
+  padding: 15px 0;
+  text-align: center;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#monikamo .container .main-content .place h4 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#monikamo .container .main-content .place h3 {
+  color: #ffffff;
+  font-size: 80px;
+  font-weight: 700;
+}
+
+#monikamo .container .main-content .place .couning-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#monikamo .container .main-content .place .couning-items .task-number {
+  margin-right: 30px;
+}
+
+#monikamo .container .main-content .place .couning-items .task-number,
+#monikamo .container .main-content .place .couning-items .task-time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#monikamo .container .main-content .place .couning-items .task-number span,
+#monikamo .container .main-content .place .couning-items .task-time span {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 8px;
+}
+
+#monikamo .container .main-content .monikaMo-img {
+  margin: auto;
+  max-width: 445px;
+}
+
+#monikamo .container .main-content .monikaMo-img img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+/*=====================
+ meadia part scss 
+======================*/
+@media (max-width: 991px) {
+  .shape-two-width {
+    width: 137px;
+  }
+  .shape-one-width {
+    width: 96px;
+  }
+  .shape-three-width {
+    width: 137px;
+  }
+  #monikamo .container {
+    width: 320px;
+  }
+  #monikamo .container .main-content .shape-contents {
+    height: 230px;
+  }
+  #monikamo .container .main-content .shape-contents .shape-two-content {
+    left: 3px;
+    bottom: 0;
+  }
+  #monikamo .container .main-content .shape-contents .shape-one-content {
+    bottom: 0;
+  }
+  #monikamo .container .main-content .shape-contents .shape-three-content {
+    bottom: 0;
+    right: 10px;
+  }
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-two,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-two,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-two {
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-one,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-one,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-one {
+    padding-bottom: 10px;
+  }
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-three,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-three,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-three {
+    padding-left: 40px;
+    padding-bottom: 10px;
+  }
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-two h3,
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-one h3,
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-three h3,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-two h3,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-one h3,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-three h3,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-two h3,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-one h3,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-three h3 {
+    font-size: 14px;
+  }
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-two .couning-items,
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-one .couning-items,
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-three .couning-items,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-two .couning-items,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-one .couning-items,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-three .couning-items,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-two .couning-items,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-one .couning-items,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-three .couning-items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-two .couning-items .task-number,
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-one .couning-items .task-number,
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-three .couning-items .task-number,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-two .couning-items .task-number,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-one .couning-items .task-number,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-three .couning-items .task-number,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-two .couning-items .task-number,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-one .couning-items .task-number,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-three .couning-items .task-number {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-two .couning-items .task-time,
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-one .couning-items .task-time,
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-three .couning-items .task-time,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-two .couning-items .task-time,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-one .couning-items .task-time,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-three .couning-items .task-time,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-two .couning-items .task-time,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-one .couning-items .task-time,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-three .couning-items .task-time {
+    margin-right: 4px;
+  }
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-two .couning-items .task-number span,
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-two .couning-items .task-time span,
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-one .couning-items .task-number span,
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-one .couning-items .task-time span,
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-three .couning-items .task-number span,
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-three .couning-items .task-time span,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-two .couning-items .task-number span,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-two .couning-items .task-time span,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-one .couning-items .task-number span,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-one .couning-items .task-time span,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-three .couning-items .task-number span,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-three .couning-items .task-time span,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-two .couning-items .task-number span,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-two .couning-items .task-time span,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-one .couning-items .task-number span,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-one .couning-items .task-time span,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-three .couning-items .task-number span,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-three .couning-items .task-time span {
+    font-size: 16px;
+    margin-left: 8px;
+  }
+  #monikamo .container .main-content .shape-contents .shape-two-content .shape-two,
+  #monikamo .container .main-content .shape-contents .shape-one-content .shape-two,
+  #monikamo .container .main-content .shape-contents .shape-three-content .shape-two {
+    width: 137px;
+    height: 117px;
+  }
+  #monikamo .container .main-content .shape-contents .shape-two-content .shape-two span,
+  #monikamo .container .main-content .shape-contents .shape-one-content .shape-two span,
+  #monikamo .container .main-content .shape-contents .shape-three-content .shape-two span {
+    font-size: 50px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+  }
+  #monikamo .container .main-content .shape-contents .shape-two-content .shape-one,
+  #monikamo .container .main-content .shape-contents .shape-one-content .shape-one,
+  #monikamo .container .main-content .shape-contents .shape-three-content .shape-one {
+    width: 96px;
+    height: 140px;
+  }
+  #monikamo .container .main-content .shape-contents .shape-two-content .shape-one span,
+  #monikamo .container .main-content .shape-contents .shape-one-content .shape-one span,
+  #monikamo .container .main-content .shape-contents .shape-three-content .shape-one span {
+    font-size: 50px;
+    padding-bottom: 50px;
+    padding-right: 10px;
+  }
+  #monikamo .container .main-content .shape-contents .shape-two-content .shape-three,
+  #monikamo .container .main-content .shape-contents .shape-one-content .shape-three,
+  #monikamo .container .main-content .shape-contents .shape-three-content .shape-three {
+    width: 137px;
+    height: 93px;
+  }
+  #monikamo .container .main-content .shape-contents .shape-two-content .shape-three span,
+  #monikamo .container .main-content .shape-contents .shape-one-content .shape-three span,
+  #monikamo .container .main-content .shape-contents .shape-three-content .shape-three span {
+    font-size: 50px;
+    padding-right: 70px;
+    padding-bottom: 20px;
+  }
+  #monikamo .container .main-content .players-contents {
+    padding: 15px 0;
+  }
+  #monikamo .container .main-content .players-contents span {
+    font-size: 16px;
+  }
+  #monikamo .container .main-content .place h4 {
+    font-size: 18px;
+  }
+  #monikamo .container .main-content .place h3 {
+    padding: 5px 0;
+    font-size: 54px;
+  }
+  #monikamo .container .main-content .place .couning-items .task-number {
+    margin-right: 40px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1500px) {
+  .shape-two-width {
+    width: 200px;
+  }
+  .shape-one-width {
+    width: 165px;
+  }
+  .shape-three-width {
+    width: 200px;
+  }
+  #monikamo .container {
+    width: 520px;
+  }
+  #monikamo .container .main-content .shape-contents {
+    height: 200px;
+  }
+  #monikamo .container .main-content .shape-contents .shape-two-content {
+    left: 18px;
+    bottom: 0;
+  }
+  #monikamo .container .main-content .shape-contents .shape-one-content {
+    bottom: 0;
+  }
+  #monikamo .container .main-content .shape-contents .shape-three-content {
+    bottom: 0;
+    right: 40px;
+  }
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-two,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-two,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-two {
+    padding-right: 45px;
+    padding-bottom: 5px;
+  }
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-one,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-one,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-one {
+    padding-bottom: 5px;
+  }
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-three,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-three,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-three {
+    padding-left: 63px;
+    padding-bottom: 5px;
+  }
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-two h3,
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-one h3,
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-three h3,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-two h3,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-one h3,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-three h3,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-two h3,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-one h3,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-three h3 {
+    font-size: 18px;
+  }
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-two .couning-items .task-number,
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-one .couning-items .task-number,
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-three .couning-items .task-number,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-two .couning-items .task-number,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-one .couning-items .task-number,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-three .couning-items .task-number,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-two .couning-items .task-number,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-one .couning-items .task-number,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-three .couning-items .task-number {
+    margin-right: 8px;
+  }
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-two .couning-items .task-number span,
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-two .couning-items .task-time span,
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-one .couning-items .task-number span,
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-one .couning-items .task-time span,
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-three .couning-items .task-number span,
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-three .couning-items .task-time span,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-two .couning-items .task-number span,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-two .couning-items .task-time span,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-one .couning-items .task-number span,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-one .couning-items .task-time span,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-three .couning-items .task-number span,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-three .couning-items .task-time span,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-two .couning-items .task-number span,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-two .couning-items .task-time span,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-one .couning-items .task-number span,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-one .couning-items .task-time span,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-three .couning-items .task-number span,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-three .couning-items .task-time span {
+    font-size: 16px;
+    margin-left: 8px;
+  }
+  #monikamo .container .main-content .shape-contents .shape-two-content .shape-two,
+  #monikamo .container .main-content .shape-contents .shape-one-content .shape-two,
+  #monikamo .container .main-content .shape-contents .shape-three-content .shape-two {
+    width: 200px;
+    height: 107px;
+  }
+  #monikamo .container .main-content .shape-contents .shape-two-content .shape-two span,
+  #monikamo .container .main-content .shape-contents .shape-one-content .shape-two span,
+  #monikamo .container .main-content .shape-contents .shape-three-content .shape-two span {
+    font-size: 50px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+  }
+  #monikamo .container .main-content .shape-contents .shape-two-content .shape-one,
+  #monikamo .container .main-content .shape-contents .shape-one-content .shape-one,
+  #monikamo .container .main-content .shape-contents .shape-three-content .shape-one {
+    width: 165px;
+    height: 136px;
+  }
+  #monikamo .container .main-content .shape-contents .shape-two-content .shape-one span,
+  #monikamo .container .main-content .shape-contents .shape-one-content .shape-one span,
+  #monikamo .container .main-content .shape-contents .shape-three-content .shape-one span {
+    font-size: 50px;
+    padding-bottom: 50px;
+    padding-right: 10px;
+  }
+  #monikamo .container .main-content .shape-contents .shape-two-content .shape-three,
+  #monikamo .container .main-content .shape-contents .shape-one-content .shape-three,
+  #monikamo .container .main-content .shape-contents .shape-three-content .shape-three {
+    width: 200px;
+    height: 80px;
+  }
+  #monikamo .container .main-content .shape-contents .shape-two-content .shape-three span,
+  #monikamo .container .main-content .shape-contents .shape-one-content .shape-three span,
+  #monikamo .container .main-content .shape-contents .shape-three-content .shape-three span {
+    font-size: 50px;
+    padding-right: 70px;
+    padding-bottom: 20px;
+  }
+  #monikamo .container .main-content .players-contents {
+    padding: 15px 0;
+  }
+  #monikamo .container .main-content .players-contents span {
+    font-size: 17px;
+  }
+  #monikamo .container .main-content .place h4 {
+    font-size: 18px;
+  }
+  #monikamo .container .main-content .place h3 {
+    padding: 5px 0;
+    font-size: 54px;
+  }
+  #monikamo .container .main-content .place .couning-items .task-number {
+    margin-right: 40px;
+  }
+}
+
+/* commom media */
+/*# sourceMappingURL=style.css.map */
