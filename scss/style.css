@@ -112,6 +112,12 @@ body {
   padding-bottom: 15px;
 }
 
+#monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-one h3,
+#monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-one h3,
+#monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-one h3 {
+  font-size: 24px !important;
+}
+
 #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-two,
 #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-one,
 #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-three,
@@ -436,6 +442,11 @@ body {
     padding-left: 40px;
     padding-bottom: 10px;
   }
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-one h3,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-one h3,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-one h3 {
+    font-size: 16px !important;
+  }
   #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-two h3,
   #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-one h3,
   #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-three h3,
@@ -605,6 +616,11 @@ body {
   #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-three {
     padding-left: 63px;
     padding-bottom: 5px;
+  }
+  #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-one h3,
+  #monikamo .container .main-content .shape-contents .shape-one-content .monikamo-text-one h3,
+  #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-one h3 {
+    font-size: 20px !important;
   }
   #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-two h3,
   #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-one h3,
