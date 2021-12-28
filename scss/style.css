@@ -412,7 +412,7 @@ body {
     width: 320px;
   }
   #monikamo .container .main-content .shape-contents {
-    height: 230px;
+    height: 215px;
   }
   #monikamo .container .main-content .shape-contents .shape-two-content {
     left: 3px;
@@ -520,20 +520,20 @@ body {
   #monikamo .container .main-content .shape-contents .shape-one-content .shape-two,
   #monikamo .container .main-content .shape-contents .shape-three-content .shape-two {
     width: 137px;
-    height: 117px;
+    height: 107px;
   }
   #monikamo .container .main-content .shape-contents .shape-two-content .shape-two span,
   #monikamo .container .main-content .shape-contents .shape-one-content .shape-two span,
   #monikamo .container .main-content .shape-contents .shape-three-content .shape-two span {
     font-size: 50px;
-    padding-left: 50px;
+    padding-left: 35px;
     padding-bottom: 20px;
   }
   #monikamo .container .main-content .shape-contents .shape-two-content .shape-one,
   #monikamo .container .main-content .shape-contents .shape-one-content .shape-one,
   #monikamo .container .main-content .shape-contents .shape-three-content .shape-one {
     width: 96px;
-    height: 140px;
+    height: 130px;
   }
   #monikamo .container .main-content .shape-contents .shape-two-content .shape-one span,
   #monikamo .container .main-content .shape-contents .shape-one-content .shape-one span,
@@ -546,13 +546,13 @@ body {
   #monikamo .container .main-content .shape-contents .shape-one-content .shape-three,
   #monikamo .container .main-content .shape-contents .shape-three-content .shape-three {
     width: 137px;
-    height: 93px;
+    height: 83px;
   }
   #monikamo .container .main-content .shape-contents .shape-two-content .shape-three span,
   #monikamo .container .main-content .shape-contents .shape-one-content .shape-three span,
   #monikamo .container .main-content .shape-contents .shape-three-content .shape-three span {
     font-size: 50px;
-    padding-right: 70px;
+    padding-right: 50px;
     padding-bottom: 20px;
   }
   #monikamo .container .main-content .players-contents {
