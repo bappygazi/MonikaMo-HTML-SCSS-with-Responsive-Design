@@ -472,6 +472,7 @@ body {
           }
         }
         .place {
+          width: 400px;
           h4 {
             font-size: 18px;
           }
@@ -484,6 +485,9 @@ body {
               margin-right: 40px;
             }
           }
+        }
+        .monikaMo-img {
+          max-width: 400px;
         }
       }
     }

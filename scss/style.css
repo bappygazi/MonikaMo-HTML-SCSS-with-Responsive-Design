@@ -718,6 +718,9 @@ body {
   #monikamo .container .main-content .players-contents span {
     font-size: 17px;
   }
+  #monikamo .container .main-content .place {
+    width: 400px;
+  }
   #monikamo .container .main-content .place h4 {
     font-size: 18px;
   }
@@ -727,6 +730,9 @@ body {
   }
   #monikamo .container .main-content .place .couning-items .task-number {
     margin-right: 40px;
+  }
+  #monikamo .container .main-content .monikaMo-img {
+    max-width: 400px;
   }
 }
 
