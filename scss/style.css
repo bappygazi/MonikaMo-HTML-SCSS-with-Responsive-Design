@@ -358,7 +358,7 @@ body {
 
 #monikamo .container .main-content .place h3 {
   color: #ffffff;
-  font-size: 80px;
+  font-size: 75px;
   font-weight: 700;
 }
 
@@ -581,7 +581,7 @@ body {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1500px) {
+@media (min-width: 992px) and (max-width: 1550px) {
   .shape-two-width {
     width: 200px;
   }
@@ -723,7 +723,7 @@ body {
   }
   #monikamo .container .main-content .place h3 {
     padding: 5px 0;
-    font-size: 54px;
+    font-size: 50px;
   }
   #monikamo .container .main-content .place .couning-items .task-number {
     margin-right: 40px;
