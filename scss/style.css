@@ -321,8 +321,16 @@ body {
 }
 
 #monikamo .container .main-content .players-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 20px 25px 20px 0px;
-  text-align: center;
 }
 
 #monikamo .container .main-content .players-contents span {
@@ -556,7 +564,7 @@ body {
     padding-bottom: 20px;
   }
   #monikamo .container .main-content .players-contents {
-    padding: 15px 30px 15px 0;
+    padding: 10px 30px 10px 0;
   }
   #monikamo .container .main-content .players-contents span {
     font-size: 16px;
@@ -566,7 +574,7 @@ body {
   }
   #monikamo .container .main-content .place h3 {
     padding: 5px 0;
-    font-size: 54px;
+    font-size: 45px;
   }
   #monikamo .container .main-content .place .couning-items .task-number {
     margin-right: 40px;
