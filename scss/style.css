@@ -465,6 +465,7 @@ body {
   #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-one h3,
   #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-three h3 {
     font-size: 14px;
+    margin-bottom: 5px;
   }
   #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-two .couning-items,
   #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-one .couning-items,
@@ -569,6 +570,9 @@ body {
   #monikamo .container .main-content .players-contents span {
     font-size: 16px;
   }
+  #monikamo .container .main-content .place {
+    margin-bottom: 10px;
+  }
   #monikamo .container .main-content .place h4 {
     font-size: 18px;
   }
@@ -595,7 +599,7 @@ body {
     width: 520px;
   }
   #monikamo .container .main-content .shape-contents {
-    height: 200px;
+    height: 185px;
   }
   #monikamo .container .main-content .shape-contents .shape-two-content {
     left: 18px;
@@ -640,6 +644,7 @@ body {
   #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-one h3,
   #monikamo .container .main-content .shape-contents .shape-three-content .monikamo-text-three h3 {
     font-size: 18px;
+    margin-bottom: 5px;
   }
   #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-two .couning-items .task-number,
   #monikamo .container .main-content .shape-contents .shape-two-content .monikamo-text-one .couning-items .task-number,
@@ -713,20 +718,23 @@ body {
     padding-bottom: 20px;
   }
   #monikamo .container .main-content .players-contents {
-    padding: 15px 25px 15px 0;
+    padding: 10px 25px 10px 0;
   }
   #monikamo .container .main-content .players-contents span {
     font-size: 17px;
   }
   #monikamo .container .main-content .place {
     width: 400px;
+    padding-top: 10px;
+    padding-bottom: 13px;
+    margin-bottom: 13px;
   }
   #monikamo .container .main-content .place h4 {
     font-size: 18px;
   }
   #monikamo .container .main-content .place h3 {
     padding: 5px 0;
-    font-size: 50px;
+    font-size: 45px;
   }
   #monikamo .container .main-content .place .couning-items .task-number {
     margin-right: 40px;
